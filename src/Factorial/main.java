@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        System.out.print("Enter number: ");
+        System.out.print("Enter the number: ");
         Scanner n = new Scanner(System.in);
         int nn = n.nextInt();
         long startTime = System.nanoTime();
