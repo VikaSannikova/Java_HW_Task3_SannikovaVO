@@ -23,7 +23,7 @@ public class main {
         System.out.println(Arrays.toString(arr));
 
         long startTime = System.nanoTime();
-        //сменить операццию
+        //сменить функцию
         Arrays.sort(arr);
         long estimatedTime = System.nanoTime() - startTime;
         System.out.println("estimatedTime = " + estimatedTime);
