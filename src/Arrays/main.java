@@ -55,5 +55,28 @@ public class main {
         }
         System.out.println("min = "+arr4[minIndex]+" minIndex = "+minIndex);
         System.out.println("max = "+arr4[maxIndex]+" maxIndex = "+maxIndex);
+        System.out.println();
+
+    //task e
+        int[] arr5 = new int[10];
+        int[] arr6 = new int[10];
+        int sumArr5=0, sumArr6=0;
+        for(int i=0;i<arr5.length;i++){
+            arr5[i] = (int)(Math.random()*11);
+            sumArr5+=arr5[i];
+        }
+        for(int i=0;i<arr6.length;i++){
+            arr6[i] = (int)(Math.random()*11);
+            sumArr6+=arr6[i];
+        }
+        System.out.println("arr5: "+Arrays.toString(arr5));
+        System.out.println("arr6: "+Arrays.toString(arr6));
+        //System.out.println(sumArr5);
+        //System.out.println(sumArr6);
+        //System.out.println((double) sumArr6/arr6.length);
+        if((sumArr5/arr5.length)==(sumArr6/arr6.length))
+            System.out.println("avgArr5=avgArr6");
+        else
+        System.out.println(sumArr5/arr5.length>sumArr6/arr6.length?"avgArr5>avgArr6":"avgArr5<avgArr6");
     }
 }
