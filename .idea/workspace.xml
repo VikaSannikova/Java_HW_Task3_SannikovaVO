@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85bf8b11-c839-4426-ade5-e9b543246e66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Arrays/main.java" afterPath="$PROJECT_DIR$/src/Arrays/main.java" />
-    </list>
+    <list default="true" id="85bf8b11-c839-4426-ade5-e9b543246e66" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SortArray/main.java">
+        <entry file="file://$PROJECT_DIR$/src/Arrays/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="175">
+              <caret line="85" column="63" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,10 +25,10 @@
         </entry>
       </file>
       <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Arrays/main.java">
+        <entry file="file://$PROJECT_DIR$/src/MultiArrays/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="97" column="10" lean-forward="false" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+            <state relative-caret-position="448">
+              <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +39,8 @@
       <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Packages/184MagikHub.9zip_hvr7qkvwfhvx6/TempState/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-652">
-              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+            <state relative-caret-position="400">
+              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -83,8 +81,9 @@
         <option value="$PROJECT_DIR$/src/Cycles/mainCycle.java" />
         <option value="$PROJECT_DIR$/src/Factorial/main.java" />
         <option value="$PROJECT_DIR$/src/Loops/main.java" />
-        <option value="$USER_HOME$/AppData/Local/Packages/184MagikHub.9zip_hvr7qkvwfhvx6/TempState/MainClass.java" />
         <option value="$PROJECT_DIR$/src/Arrays/main.java" />
+        <option value="$USER_HOME$/AppData/Local/Packages/184MagikHub.9zip_hvr7qkvwfhvx6/TempState/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/MultiArrays/main.java" />
       </list>
     </option>
   </component>
@@ -144,6 +143,12 @@
               <item name="Java_HW_Task3_SannikovaVO" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_HW_Task3_SannikovaVO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiArrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_HW_Task3_SannikovaVO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_HW_Task3_SannikovaVO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SortArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -169,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.array_main">
+  <component name="RunManager" selected="Application.multiarray_main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -293,6 +298,20 @@
       <module name="Java_HW_Task3_SannikovaVO" />
       <envs />
     </configuration>
+    <configuration name="multiarray_main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MultiArrays.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java_HW_Task3_SannikovaVO" />
+      <envs />
+    </configuration>
     <configuration name="sort_main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SortArray.main" />
@@ -307,11 +326,12 @@
       <module name="Java_HW_Task3_SannikovaVO" />
       <envs />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.factorial_main" />
       <item index="1" class="java.lang.String" itemvalue="Application.loop_main" />
       <item index="2" class="java.lang.String" itemvalue="Application.array_main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.sort_main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.multiarray_main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.sort_main" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -411,18 +431,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="85" column="63" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Packages/184MagikHub.9zip_hvr7qkvwfhvx6/TempState/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        <state relative-caret-position="400">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/main.java">
+    <entry file="file://$PROJECT_DIR$/src/MultiArrays/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="97" column="10" lean-forward="false" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+        <state relative-caret-position="448">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
