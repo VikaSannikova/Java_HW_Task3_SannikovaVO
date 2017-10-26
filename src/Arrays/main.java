@@ -40,12 +40,20 @@ public class main {
         }
         System.out.println("modified arr3: "+Arrays.toString(arr3));
         System.out.println();
-        
+
     //task d
         int[] arr4 = new int[15];
         for(int i=0;i<arr4.length;i++){
             arr4[i] = (int)(Math.random()*101-50);
         }
-        System.out.println(Arrays.toString(arr4));
+        System.out.println("arr4: "+Arrays.toString(arr4));
+
+        int minIndex =0, maxIndex =0 ;
+        for(int i=0; i< arr4.length;i++){
+            if(arr4[i]<=arr4[minIndex]) minIndex=i;
+            if(arr4[i]>=arr4[maxIndex]) maxIndex=i;
+        }
+        System.out.println("min = "+arr4[minIndex]+" minIndex = "+minIndex);
+        System.out.println("max = "+arr4[maxIndex]+" maxIndex = "+maxIndex);
     }
 }
