@@ -1,7 +1,9 @@
 package Arrays;
 
 import java.util.Arrays;
+import java.util.Random;
 
+import static java.lang.Math.max;
 import static java.lang.Math.random;
 
 public class main {
@@ -78,5 +80,27 @@ public class main {
             System.out.println("avgArr5=avgArr6");
         else
         System.out.println(sumArr5/arr5.length>sumArr6/arr6.length?"avgArr5>avgArr6":"avgArr5<avgArr6");
+        System.out.println();
+
+    //task f
+        Random random = new Random(System.currentTimeMillis());
+        /*for(int i=0;i<1000;i++){
+            int q = random.nextInt(21)-10;
+            System.out.print(q+" ");
+        }*/
+        int[] arr7 = new int[20];
+        int[] count = new int[3];
+        for(int i=0;i<arr7.length;i++){
+            arr7[i] = random.nextInt(3)-1;
+            count[arr7[i]+1]++;
+        }
+        System.out.println(Arrays.toString(arr7));
+        //System.out.println(Arrays.toString(count));
+        int tmp = max(max(count[0],count[1]),max(count[1],count[2]));
+        for(int i=0;i<count.length;i++){
+            if(count[i]==tmp)
+                System.out.println("The most popular number is: "+(i-1)+" its amount: "+count[i]);
+        }
+        System.out.println();
     }
 }
