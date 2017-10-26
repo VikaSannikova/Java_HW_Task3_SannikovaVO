@@ -49,7 +49,21 @@ public class main {
         System.out.println();
 
         //task c
-        
+        int[][] matrix3=new int[8][5];
+        int rowMult =1, maxRowMult=1, pos = 0;
+        for(int i=0;i<matrix3.length;i++){
+            for (int j=0;j<matrix3[i].length;j++){
+                matrix3[i][j]=random.nextInt(21)-10;
+                rowMult*=Math.abs(matrix3[i][j]);
+            }
+            if(maxRowMult<rowMult){
+                maxRowMult=rowMult;
+                pos =i ;
+            }
+            rowMult =1;
+            System.out.println(Arrays.toString(matrix3[i]));
+        }
+        System.out.println("Max Mult for row: "+Arrays.toString(matrix3[pos])+" = "+maxRowMult+ " its pos = "+pos);
 
 
 
