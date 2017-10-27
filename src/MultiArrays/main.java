@@ -64,6 +64,24 @@ public class main {
             System.out.println(Arrays.toString(matrix3[i]));
         }
         System.out.println("Max Mult for row: "+Arrays.toString(matrix3[pos])+" = "+maxRowMult+ " its pos = "+pos);
+        System.out.println();
+
+        //task d
+        int [][] matrix4 = new int [10][7];
+        for(int i=0;i<matrix4.length;i++){
+            for (int j=0;j<matrix4[i].length;j++){
+                matrix4[i][j]=random.nextInt(101);
+            }
+            System.out.println(Arrays.toString(matrix4[i]));
+        }
+        System.out.println();
+        for(int i=0;i<matrix4.length;i++){
+            Arrays.sort(matrix4[i]);
+            System.out.println(Arrays.toString(matrix4[i]));
+        }
+
+
+
 
 
 
